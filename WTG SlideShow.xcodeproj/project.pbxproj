@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28CB04BB1E07A54A0018E0B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CB04BA1E07A54A0018E0B2 /* AppDelegate.swift */; };
+		28CB04BD1E07A54A0018E0B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CB04BC1E07A54A0018E0B2 /* ViewController.swift */; };
+		28CB04C01E07A54A0018E0B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28CB04BE1E07A54A0018E0B2 /* Main.storyboard */; };
+		28CB04C21E07A54A0018E0B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28CB04C11E07A54A0018E0B2 /* Assets.xcassets */; };
+		28CB04C51E07A54A0018E0B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28CB04C31E07A54A0018E0B2 /* LaunchScreen.storyboard */; };
+		28CB04D01E07A54A0018E0B2 /* WTG_SlideShowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CB04CF1E07A54A0018E0B2 /* WTG_SlideShowTests.swift */; };
+		28CB04DB1E07A54A0018E0B2 /* WTG_SlideShowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CB04DA1E07A54A0018E0B2 /* WTG_SlideShowUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28CB04CC1E07A54A0018E0B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28CB04AF1E07A54A0018E0B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28CB04B61E07A54A0018E0B2;
+			remoteInfo = "WTG SlideShow";
+		};
+		28CB04D71E07A54A0018E0B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28CB04AF1E07A54A0018E0B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28CB04B61E07A54A0018E0B2;
+			remoteInfo = "WTG SlideShow";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28CB04B71E07A54A0018E0B2 /* WTG SlideShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WTG SlideShow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CB04BA1E07A54A0018E0B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28CB04BC1E07A54A0018E0B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28CB04BF1E07A54A0018E0B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28CB04C11E07A54A0018E0B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28CB04C41E07A54A0018E0B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28CB04C61E07A54A0018E0B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28CB04CB1E07A54A0018E0B2 /* WTG SlideShowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WTG SlideShowTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CB04CF1E07A54A0018E0B2 /* WTG_SlideShowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTG_SlideShowTests.swift; sourceTree = "<group>"; };
+		28CB04D11E07A54A0018E0B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28CB04D61E07A54A0018E0B2 /* WTG SlideShowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WTG SlideShowUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CB04DA1E07A54A0018E0B2 /* WTG_SlideShowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTG_SlideShowUITests.swift; sourceTree = "<group>"; };
+		28CB04DC1E07A54A0018E0B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28CB04B41E07A54A0018E0B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CB04C81E07A54A0018E0B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CB04D31E07A54A0018E0B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28CB04AE1E07A54A0018E0B2 = {
+			isa = PBXGroup;
+			children = (
+				28CB04B91E07A54A0018E0B2 /* WTG SlideShow */,
+				28CB04CE1E07A54A0018E0B2 /* WTG SlideShowTests */,
+				28CB04D91E07A54A0018E0B2 /* WTG SlideShowUITests */,
+				28CB04B81E07A54A0018E0B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28CB04B81E07A54A0018E0B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28CB04B71E07A54A0018E0B2 /* WTG SlideShow.app */,
+				28CB04CB1E07A54A0018E0B2 /* WTG SlideShowTests.xctest */,
+				28CB04D61E07A54A0018E0B2 /* WTG SlideShowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28CB04B91E07A54A0018E0B2 /* WTG SlideShow */ = {
+			isa = PBXGroup;
+			children = (
+				28CB04BA1E07A54A0018E0B2 /* AppDelegate.swift */,
+				28CB04BC1E07A54A0018E0B2 /* ViewController.swift */,
+				28CB04BE1E07A54A0018E0B2 /* Main.storyboard */,
+				28CB04C11E07A54A0018E0B2 /* Assets.xcassets */,
+				28CB04C31E07A54A0018E0B2 /* LaunchScreen.storyboard */,
+				28CB04C61E07A54A0018E0B2 /* Info.plist */,
+			);
+			path = "WTG SlideShow";
+			sourceTree = "<group>";
+		};
+		28CB04CE1E07A54A0018E0B2 /* WTG SlideShowTests */ = {
+			isa = PBXGroup;
+			children = (
+				28CB04CF1E07A54A0018E0B2 /* WTG_SlideShowTests.swift */,
+				28CB04D11E07A54A0018E0B2 /* Info.plist */,
+			);
+			path = "WTG SlideShowTests";
+			sourceTree = "<group>";
+		};
+		28CB04D91E07A54A0018E0B2 /* WTG SlideShowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28CB04DA1E07A54A0018E0B2 /* WTG_SlideShowUITests.swift */,
+				28CB04DC1E07A54A0018E0B2 /* Info.plist */,
+			);
+			path = "WTG SlideShowUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28CB04B61E07A54A0018E0B2 /* WTG SlideShow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28CB04DF1E07A54A0018E0B2 /* Build configuration list for PBXNativeTarget "WTG SlideShow" */;
+			buildPhases = (
+				28CB04B31E07A54A0018E0B2 /* Sources */,
+				28CB04B41E07A54A0018E0B2 /* Frameworks */,
+				28CB04B51E07A54A0018E0B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WTG SlideShow";
+			productName = "WTG SlideShow";
+			productReference = 28CB04B71E07A54A0018E0B2 /* WTG SlideShow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28CB04CA1E07A54A0018E0B2 /* WTG SlideShowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28CB04E21E07A54A0018E0B2 /* Build configuration list for PBXNativeTarget "WTG SlideShowTests" */;
+			buildPhases = (
+				28CB04C71E07A54A0018E0B2 /* Sources */,
+				28CB04C81E07A54A0018E0B2 /* Frameworks */,
+				28CB04C91E07A54A0018E0B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28CB04CD1E07A54A0018E0B2 /* PBXTargetDependency */,
+			);
+			name = "WTG SlideShowTests";
+			productName = "WTG SlideShowTests";
+			productReference = 28CB04CB1E07A54A0018E0B2 /* WTG SlideShowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28CB04D51E07A54A0018E0B2 /* WTG SlideShowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28CB04E51E07A54A0018E0B2 /* Build configuration list for PBXNativeTarget "WTG SlideShowUITests" */;
+			buildPhases = (
+				28CB04D21E07A54A0018E0B2 /* Sources */,
+				28CB04D31E07A54A0018E0B2 /* Frameworks */,
+				28CB04D41E07A54A0018E0B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28CB04D81E07A54A0018E0B2 /* PBXTargetDependency */,
+			);
+			name = "WTG SlideShowUITests";
+			productName = "WTG SlideShowUITests";
+			productReference = 28CB04D61E07A54A0018E0B2 /* WTG SlideShowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28CB04AF1E07A54A0018E0B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Raul Castro";
+				TargetAttributes = {
+					28CB04B61E07A54A0018E0B2 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = B2JGN85EW9;
+						ProvisioningStyle = Automatic;
+					};
+					28CB04CA1E07A54A0018E0B2 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = B2JGN85EW9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 28CB04B61E07A54A0018E0B2;
+					};
+					28CB04D51E07A54A0018E0B2 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = B2JGN85EW9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 28CB04B61E07A54A0018E0B2;
+					};
+				};
+			};
+			buildConfigurationList = 28CB04B21E07A54A0018E0B2 /* Build configuration list for PBXProject "WTG SlideShow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28CB04AE1E07A54A0018E0B2;
+			productRefGroup = 28CB04B81E07A54A0018E0B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28CB04B61E07A54A0018E0B2 /* WTG SlideShow */,
+				28CB04CA1E07A54A0018E0B2 /* WTG SlideShowTests */,
+				28CB04D51E07A54A0018E0B2 /* WTG SlideShowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28CB04B51E07A54A0018E0B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CB04C51E07A54A0018E0B2 /* LaunchScreen.storyboard in Resources */,
+				28CB04C21E07A54A0018E0B2 /* Assets.xcassets in Resources */,
+				28CB04C01E07A54A0018E0B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CB04C91E07A54A0018E0B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CB04D41E07A54A0018E0B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28CB04B31E07A54A0018E0B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CB04BD1E07A54A0018E0B2 /* ViewController.swift in Sources */,
+				28CB04BB1E07A54A0018E0B2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CB04C71E07A54A0018E0B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CB04D01E07A54A0018E0B2 /* WTG_SlideShowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CB04D21E07A54A0018E0B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CB04DB1E07A54A0018E0B2 /* WTG_SlideShowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28CB04CD1E07A54A0018E0B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28CB04B61E07A54A0018E0B2 /* WTG SlideShow */;
+			targetProxy = 28CB04CC1E07A54A0018E0B2 /* PBXContainerItemProxy */;
+		};
+		28CB04D81E07A54A0018E0B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28CB04B61E07A54A0018E0B2 /* WTG SlideShow */;
+			targetProxy = 28CB04D71E07A54A0018E0B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28CB04BE1E07A54A0018E0B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28CB04BF1E07A54A0018E0B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28CB04C31E07A54A0018E0B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28CB04C41E07A54A0018E0B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28CB04DD1E07A54A0018E0B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28CB04DE1E07A54A0018E0B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28CB04E01E07A54A0018E0B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B2JGN85EW9;
+				INFOPLIST_FILE = "WTG SlideShow/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wheretogo.appslide.WTG-SlideShow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		28CB04E11E07A54A0018E0B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B2JGN85EW9;
+				INFOPLIST_FILE = "WTG SlideShow/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wheretogo.appslide.WTG-SlideShow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		28CB04E31E07A54A0018E0B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B2JGN85EW9;
+				INFOPLIST_FILE = "WTG SlideShowTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wheretogo.appslide.WTG-SlideShowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTG SlideShow.app/WTG SlideShow";
+			};
+			name = Debug;
+		};
+		28CB04E41E07A54A0018E0B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B2JGN85EW9;
+				INFOPLIST_FILE = "WTG SlideShowTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wheretogo.appslide.WTG-SlideShowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTG SlideShow.app/WTG SlideShow";
+			};
+			name = Release;
+		};
+		28CB04E61E07A54A0018E0B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = B2JGN85EW9;
+				INFOPLIST_FILE = "WTG SlideShowUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wheretogo.appslide.WTG-SlideShowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "WTG SlideShow";
+			};
+			name = Debug;
+		};
+		28CB04E71E07A54A0018E0B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = B2JGN85EW9;
+				INFOPLIST_FILE = "WTG SlideShowUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wheretogo.appslide.WTG-SlideShowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "WTG SlideShow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28CB04B21E07A54A0018E0B2 /* Build configuration list for PBXProject "WTG SlideShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CB04DD1E07A54A0018E0B2 /* Debug */,
+				28CB04DE1E07A54A0018E0B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28CB04DF1E07A54A0018E0B2 /* Build configuration list for PBXNativeTarget "WTG SlideShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CB04E01E07A54A0018E0B2 /* Debug */,
+				28CB04E11E07A54A0018E0B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28CB04E21E07A54A0018E0B2 /* Build configuration list for PBXNativeTarget "WTG SlideShowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CB04E31E07A54A0018E0B2 /* Debug */,
+				28CB04E41E07A54A0018E0B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28CB04E51E07A54A0018E0B2 /* Build configuration list for PBXNativeTarget "WTG SlideShowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CB04E61E07A54A0018E0B2 /* Debug */,
+				28CB04E71E07A54A0018E0B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28CB04AF1E07A54A0018E0B2 /* Project object */;
+}
